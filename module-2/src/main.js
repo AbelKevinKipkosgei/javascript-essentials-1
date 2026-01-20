@@ -1,3 +1,5 @@
+"use strict";
+
 // variables
 let greeting = "Hello";
 let counter = 100;
