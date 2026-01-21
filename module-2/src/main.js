@@ -21,3 +21,20 @@ console.log("Constant greeting: " + greeting1);
 // wrong
 // const greeting2;
 // greeting2 = "Hello";
+
+// scope
+let height = 200;
+{
+  let weight = 100;
+  {
+    let info = "tall";
+    console.log(height);
+    console.log(weight);
+    console.log(info);
+  }
+  {
+    console.log(height);
+    console.log(weight);
+    console.log(info);
+  }
+}
