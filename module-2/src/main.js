@@ -35,6 +35,15 @@ let height = 200;
   {
     console.log(height);
     console.log(weight);
-    console.log(info);
+    // console.log(info);
   }
 }
+
+// variable shadowing
+let counter1 = 100;
+console.log(`Global counter: ${counter1}`);
+{
+  let counter1 = 200;
+  console.log(`Local counter: ${counter1}`);
+}
+console.log(counter1);
