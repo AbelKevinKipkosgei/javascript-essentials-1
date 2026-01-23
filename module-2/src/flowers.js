@@ -4,8 +4,8 @@ const priceOfLily = 10;
 const priceOfTulip = 2;
 
 //quantity
-let numberOfRoses = 70;
-let numberOfLilies = 50;
+let numberOfRoses = 50;
+let numberOfLilies = 20;
 let numberOfTulips = 120;
 
 //total prices
