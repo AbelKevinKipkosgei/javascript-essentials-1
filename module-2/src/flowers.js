@@ -1,7 +1,7 @@
 //prices
-let priceOfRose = 8;
-let priceOfLily = 10;
-let priceOfTulip = 2;
+const priceOfRose = 8;
+const priceOfLily = 10;
+const priceOfTulip = 2;
 
 //quantity
 let numberOfRoses = 70;
