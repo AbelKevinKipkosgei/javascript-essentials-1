@@ -47,3 +47,16 @@ console.log(`Global counter: ${counter1}`);
   console.log(`Local counter: ${counter1}`);
 }
 console.log(counter1);
+
+//typeof
+let year = 1990;
+console.log(typeof year);
+console.log(typeof 2001);
+
+const firstName = "Abel";
+console.log(typeof firstName);
+console.log(typeof "Kevin");
+
+let typeOfYear = typeof year;
+console.log(typeOfYear);
+console.log(typeof typeOfYear);
