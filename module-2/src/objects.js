@@ -16,3 +16,11 @@ let user2 = {
 
 console.log(user1.name);
 console.log(user2.name);
+
+//add property
+user2.phone = "904-399-7557";
+console.log(user2.phone);
+
+//delete property
+delete user2.phone;
+console.log(user2.phone);
