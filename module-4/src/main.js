@@ -24,3 +24,8 @@ if (number < 10) {
 } else {
   alert(">100");
 }
+
+// conditional operator
+const price = prompt("Enter price of item: ", 70);
+const shippingCost = price > 50 ? 0 : 5;
+console.log(`price = ${price}, shipping = ${shippingCost}`);
