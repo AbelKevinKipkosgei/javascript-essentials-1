@@ -24,9 +24,6 @@ const actionInput = prompt(
 
 const userAction = actionInput?.toLowerCase().trim();
 
-// get last contact
-const last = contacts.length - 1;
-
 switch (userAction) {
   case "first":
     const firstContact = contacts[0];
